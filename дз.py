@@ -1,5 +1,5 @@
 import random
-class Student:
+class animals:
     def __init__(self, name):
         self.name = name
         self.joy = 50
@@ -7,7 +7,7 @@ class Student:
         self.alive = True
 
     def to_study(self):
-        print("Time to study")
+        print("Time to do something")
         self.progress += 0.12
         self.joy -= 3
 
@@ -49,8 +49,8 @@ class Student:
         self.end_of_day()
         self.is_alive()
 
-nick = Student(name="cat")
-kate = Student(name="dog")
+nick = animals(name="cat")
+kate = animals(name="dog")
 for day in range(365):
     if nick.alive == False:
         break
