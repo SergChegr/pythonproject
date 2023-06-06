@@ -1,7 +1,7 @@
 import telebot
 import random
 
-bot = telebot.TeleBot('YOUR_BOT_TOKEN_HERE')
+bot = telebot.TeleBot('5658799320:AAF3mW679oUwCWopzc25tjxHzZgYbK2rYLs')
 
 jokes = ["Почему математики плохие в приготовлении пищи? Они всегда путают таблетки с ложками.",
  "Почему у программистов всегда холодные руки? Они постоянно работают с ледяными кубиками.",
